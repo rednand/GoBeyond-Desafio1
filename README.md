@@ -5,6 +5,15 @@ A proposta era fazer um site o máximo possível parecido com o disposto em um p
 
 https://www.figma.com/file/Q6R28bCLDpizGZT6YvJGcm/Corebiz---Go-Beyond-2021?node-id=1%3A218
 
-### As tecnologia utilizadas foram HTML, CSS e JavaScript.
+<br>
+O site está hospedado em: https://rednand.github.io/GoBeyond-Desafio1/ :bowtie:	
+<br>
+<br>
 
-OBS: ainda em andamento pois não consegui terminar a validação do formulário e outros pequenos ajustes.
+### As tecnologia utilizadas foram:
+- HTML
+- CSS
+- JavaScript
+<br>
+
+OBS: ainda em andamento pois não consegui terminar a validação do formulário e outros pequenos ajustes. :pensive:	
