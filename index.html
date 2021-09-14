@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a><span id="logo"><img src="img/gobeyond_logo_white 1.png"></span></a>
+            <a class="active1" href="#home">Home</a>
+            <a href="#categoria1">
+                <select class="option">
+                    <option value="1">Categoria 1</option>
+                    <option value="2">Tênis 1</option>
+                    <option value="3">Tênis 2</option>
+                    <option value="4">Tênis 3</option>
+                </select>
+            </a>
+            <a href="#categoria2">
+                <select class="option">
+                    <option value="5">Categoria 2</option>
+                    <option value="6">Tênis 1</option>
+                    <option value="7">Tênis 2</option>
+                    <option value="8">Tênis 3</option>
+                </select>
+            </a>
+            <a href="contato">Contato</a>
+            <a><input type="text" placeholder="O que esta procurando"><img src="img/Vector (3).png"></a>
+            <a><img src="img/user 1.png"><span>Minha conta</span></a>
+            <a><img src="img/2.png"></a>
+        </div>
+        <div id="mobile-header">
+            <div id="mobile-header2">
+                <a><img src="img/menu-hamburguer.svg"></a>
+                <a><img id="logo-mobile" src="img/Vector (7).png"></a>
+                <a><img src="img/2.png"></a>
+            </div>
+            <input type="text" placeholder="O que esta procurando"><img src="img/Vector (3).png">
+
+        </div>
+
+    </header>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div id="banner">
+                <div id="banner-text">
+                    <img src="img/Banner (1).png">
+                    <div id="image-text">
+                        <h1>Olá, você quer fazer entrar de cabeça em desenvolvimento?</h1>
+                        </h1>
+                        <h2> front-end • back-end • mobile</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div id="banner">
+                <div id="banner-text">
+                    <img src="img/Banner (1).png">
+                    <div id="image-text">
+                        <h1>Olá, você quer fazer entrar de cabeça em desenvolvimento?</h1>
+                        </h1>
+                        <h2> front-end • back-end • mobile</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div class="dot-div">
+        <span class="active dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <div id="product-prateleira">
+        <h3>Mais vendidos</h3>
+        <hr>
+        <div class="product-box">
+            <div class="product">
+                <div class="product-image"> <img src="img/Flag.png"></div>
+                <div>
+                    <p class="description">SAPATO FLOATER PRETO</p>
+                </div>
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png"><br>
+                <span id="price">de R$ 299,00</span>
+                <br><span id="price2">por R$ 259,90
+                </span><br>
+                <span id="price3"> ou em 9x de R$ 28,87</span>
+                <button class="buy-button">
+                    <img src="img/Vector (4).png">
+                    <div>
+                        <p class="adc-button">COMPRAR</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="product">
+                <div class="product-image"> <img src="img/Flag.png"></div>
+                <div>
+                    <p class="description">SAPATO FLOATER PRETO</p>
+                </div>
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png"><br>
+                <span id="price">de R$ 299,00</span>
+                <br><span id="price2">por R$ 259,90
+                </span><br>
+                <span id="price3"> ou em 9x de R$ 28,87</span>
+                <button class="buy-button">
+                    <img src="img/Vector (4).png">
+                    <div>
+                        <p class="adc-button">COMPRAR</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="product">
+                <div class="product-image"> <img src="img/Flag.png"></div>
+                <div>
+                    <p class="description">SAPATO FLOATER PRETO</p>
+                </div>
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png"><br>
+                <span id="price">de R$ 299,00</span>
+                <br><span id="price2">por R$ 259,90
+                </span><br>
+                <span id="price3"> ou em 9x de R$ 28,87</span>
+                <button class="buy-button">
+                    <img src="img/Vector (4).png">
+                    <div>
+                        <p class="adc-button">COMPRAR</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="product">
+                <div class="product-image"> <img src="img/Flag.png"></div>
+                <div>
+                    <p class="description">SAPATO FLOATER PRETO</p>
+                </div>
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png"><br>
+                <span id="price">de R$ 299,00</span>
+                <br><span id="price2">por R$ 259,90
+                </span><br>
+                <span id="price3"> ou em 9x de R$ 28,87</span>
+                <button class="buy-button">
+                    <img src="img/Vector (4).png">
+                    <div>
+                        <p class="adc-button">COMPRAR</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="product">
+                <div class="product-image"> <img src="img/Flag.png"></div>
+                <div>
+                    <p class="description">SAPATO FLOATER PRETO</p>
+                </div>
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png">
+                <img class="star" src="img/Icon (2).png"><br>
+                <span id="price">de R$ 299,00</span>
+                <br><span id="price2">por R$ 259,90
+                </span><br>
+                <span id="price3"> ou em 9x de R$ 28,87</span>
+                <button class="buy-button">
+                    <img src="img/Vector (4).png">
+                    <div>
+                        <p class="adc-button">COMPRAR</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="news">
+            <h2>Participe de nossas news com promoções e novidades! </h2>
+            <form target="_blank" action="/action_page.php" method="post" id="form-news" name="myForm">
+                <div>
+                    <input type="text" placeholder="Digite o seu nome" name="" id="name" required>
+                    <span class="error"></span>
+                </div>
+                <div>
+                    <input type="email" placeholder="Digite o seu email" name="" id="email" required>
+                    <span class="error"></span>
+                </div>
+                <button type="submit" form="form-news" value="Submit">Eu quero!</button>
+            </form>
+
+        </div>
+        <div id="footer1">
+            <div id="black-footer-ftr">
+                <div id="contact" class="black-footer">
+                    <h3>Localização
+                        <hr>
+                    </h3>
+                    <p>
+                        Avenida Andrômeda, 2000. Bloco 6 e 8
+                        <br>Alphavile SP
+                        <br>brasil@corebiz.ag
+                        <br>+55 11 3090 1039
+                    </p>
+                </div>
+                <div id="contact-button" class="black-footer">
+                    <button>
+                        <img src="img/Icon.png">
+                        <p>ENTRE EM CONTATO</p>
+                    </button>
+                    <br>
+                    <button>
+                        <img src="img/Icon (1).png">
+                        <p>
+                            FALE COM O NOSSO
+                            CONSULTOR ONLINE</p>
+                    </button>
+                </div>
+                <div id="development" class="black-footer">
+                    <span>
+                        <p>Created by</p>
+                        <img src="img/Vector (5).png">
+                    </span>
+                    <span>
+                        <p>Powered by</p>
+                        <img src="img/Vector (6).png">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div id="footer2">
+
+        </div>
+    </footer>
+    <script type="text/javascript" src="js.js"></script>
+</body>
+
+</html>
